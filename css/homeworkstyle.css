@@ -1,0 +1,82 @@
+
+/* reset */
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
+	color: var(--black);
+	scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Rubik', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+@media (min-width: 768px){
+    header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .my-info, .dog-bg {
+        flex: 1;
+    }
+}  
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    opacity: 0.7;
+}
+
+.my-info {
+    margin-left: 80px;
+}
+
+.dog-bg {
+    background-image: url("../img/linus-belanger-DT89GVahvRI-unsplash.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 62%;
+}
